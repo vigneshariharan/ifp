@@ -51,3 +51,5 @@ def fetch_image_urls(query:str, max_links_to_fetch:int, wd:webdriver, sleep_betw
         results_start = len(thumbnail_results)
 
     return image_urls
+
+#https://towardsdatascience.com/image-scraping-with-python-a96feda8af2d
